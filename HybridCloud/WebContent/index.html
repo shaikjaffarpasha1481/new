@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Hybrid Cloud</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="shortcut icon" type="image/x-icon" href="images/brainstorming_alternative.png"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+         <pre> <h1><a href="index.html">A Hybrid Cloud Approach</a></h1>
+          <h2 style="font-size: 22px">for Secure Authorized Deduplication</h2></pre>
+        </div>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="admin.jsp">Admin</a></li>
+          <li><a href="p_cloud.jsp">Private Cloud</a></li>
+        
+          <li><a href="#">User</a>
+            <ul>
+                <li><a href="user.jsp">Login</a></li>
+                <li><a href="register.jsp">Register</a></li>
+             
+            </ul>
+          </li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/c1.jpg" alt="photo_one" /></li>
+            <li><img width="450" height="450" src="images/c2.jpg" alt="photo_two" /></li>
+            <li><img width="450" height="450" src="images/c3.jpg" alt="photo_three" /></li>
+            <li><img width="450" height="450" src="images/c4.jpg" alt="photo_four" /></li>
+            <li><img width="450" height="450" src="images/c5.jpg" alt="photo_five" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <h1>Abstract</h1>
+        <p style="text-align: justify">Data deduplication is one of important data compression techniques for eliminating duplicate copies of repeating data,
+and has been widely used in cloud storage to reduce the amount of storage space and save bandwidth. To protect the confidentiality
+of sensitive data while supporting deduplication, the convergent encryption technique has been proposed to encrypt the data before
+outsourcing. To better protect data security, this paper makes the first attempt to formally address the problem of authorized data
+deduplication. Different from traditional deduplication systems, the differential privileges of users are further considered in duplicate
+check besides the data itself. We also present several new deduplication constructions supporting authorized duplicate check in a hybrid
+cloud architecture. Security analysis demonstrates that our scheme is secure in terms of the definitions specified in the proposed
+security model. As a proof of concept, we implement a prototype of our proposed authorized duplicate check scheme and conduct
+testbed experiments using our prototype. We show that our proposed authorized duplicate check scheme incurs minimal overhead
+compared to normal operations.</p>
+       
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy; Jpinfotech. All Rights Reserved.</p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
